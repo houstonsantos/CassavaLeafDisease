@@ -19,7 +19,7 @@
     * Classe 4 – Folha Saudável
 
 <p align="center">
-    <img width="500" height="400" src="img/picture1.png">
+    <img width="600" height="500" src="img/picture1.png">
 </p>
 
 <p style='text-align: justify;'> Como podemos observar a classe 3 apresenta uma quantidade considerável em relação as demais, o desbalanceamento faz o modelo aprender mais sobre a classe predominante em relação as outras, esse tipo de problema é conhecido como classe rara. Para o problema da classe rara temos uma possível solução através da estratificação. Para realizar esse processo dados foram separados utilizando a técnica HoldOut de forma estratificada pela classe, mantendo suas proporções em cada separação; 70% (14977 para treino), 30% (6420 para teste), das imagens de treino 10% (642 para validação). Os dados de validação são usados ao final, com a intensão de simular um ambiente real de produção. </p>
@@ -48,6 +48,14 @@ Algumas informações de técnicas utilizadas na criação da Rede Neural Convol
     
 <p align="center">
     <img width="300" height="200" src="img/picture2.png">
+</p>
+
+  * **Cross-Validation**
+    
+    * <p style='text-align: justify;'> A validação é um método estatístico que consiste em comprar algoritmos por meio de uma divisão de dados separados em dois segmentos, treino e teste essa separação dos dados dar-se o nome de folds (partes iguais), ao qual irá treinar e testar o modelo n (folds) vezes, com ajuda do scikit-learn usando StratifiedKFold podemos realizar esta separação de forma proporcional as classes </p>
+
+<p align="center">
+    <img width="400" height="300" src="img/picture4.png">
 </p>
 
 
