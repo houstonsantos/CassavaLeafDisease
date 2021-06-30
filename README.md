@@ -76,9 +76,35 @@ Consiste em uma separação simples do conjunto de dados entre treino e teste, o
     <img width="500" height="400" src="img/picture7.png">
 </p>
 
+<p align="center">
+    <img width="350" height="300" src="img/picture8.png">
+</p>
 
-
-
+**Cross-Validation**
 Na execução da validação cruzada foram utilizados 5 folds de forma estratificada, ou seja, mantendo a proporção das classes observadas. Neste método o teste não é executado ao final de cada epoch, como acontece quando utilizamos o HoldOut, e sim ao final do treinamento de cada fold, na tabela abaixo podemos observar os valores obtidos dos testes:
 
+<p align="center">
+    <img width="350" height="300" src="img/picture9.png">
+</p>
+
+<p align="center">
+    <img width="350" height="300" src="img/picture10.png">
+</p>
+
+<p align="center">
+    <img width="350" height="300" src="img/picture11.png">
+</p>
+
 ## Referências
+
+<p>
+[1] MORAIS, M. S.; MEDEIROS, E. V.; MOREIRA, K. A.; CAVALCANTI, M. S.; OLIVEIRA, N. T. Epidemiologia das doenças da parte aérea da Mandioca no Município de Alagoa Nova, Paraíba. SciELO Brasil, v.40, n.3, p.264-269, 2014.
+
+[2] JUNIOR, F. A. G. Produtividade de Variedades de Mandioca em Diferentes Arranjos de Plantio, Épocas de Colheita, Fisiologia do Estresse e Déficit Hídrico. Bahia, UFRB 2018.
+
+[3] A Cultura da Mandioca. Sistema de Produção Embrapa. Disponível em: <https://www.bibliotecaagptea.org.br/agricultura- novo/culturas-anuais/culturas-anuais-livros/> Acesso em: 15 abr. 2021.
+
+[4] ARALDI, R.; SILVA, I. P. F.; TANAKA, A. A.; GIROTTO, M.; SILVA JUNIOR, J. F. Doenças Virais na Cultura da Mandioca. FAEF Revista Científica Eletrônica de Agronomia, n. 20 de 2011.
+
+ 
+</p>
