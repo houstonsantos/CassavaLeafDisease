@@ -106,5 +106,31 @@ Na execução da validação cruzada foram utilizados 5 folds de forma estratifi
 
 [4] ARALDI, R.; SILVA, I. P. F.; TANAKA, A. A.; GIROTTO, M.; SILVA JUNIOR, J. F. Doenças Virais na Cultura da Mandioca. FAEF Revista Científica Eletrônica de Agronomia, n. 20 de 2011.
 
- 
+[5] Indução de Resistência em Manihot Esculenta Crantz ao Ataque de Vatiga Illudens. 
+Disponível em: <https://cointer.institutoidv.org/inscricao/pdvagro/uploadsAnais/INDU%C3%87%C3%83O-DE-RESIST%C3%8ANCIA-EM-Manihot-esculenta-Crantz-AO-ATAQUE-DE-Vatiga-illudens.pdf> 
+Acesso em: 15 abr. 2021
+
+[6] OLIVEIRA, S. A. S.; SILVA, M. A.; RANGEL, M. A. S.; SANTOS, V. S.; RINGENBERG, R.; OLIVEIRA, E, J. Metodologia para Avaliação da Resistência da Mandioca à Bacteriose, Antracnose e Superalongamento.  
+Disponível em: <https://ainfo.cnptia.embrapa.br/digital/bitstream/item/146099/1/boletim-78.pdf> Acesso em: 15 abr. 2021.
+
+[7] TORREY, L.; SHAVLIK, J. (2009), Transfer Learning. Madison, WI: University of Wisconsin.
+
+[8] MOURA, Karina. Data Science: Um estudo dos métodos no mercado e na academia, Porto Alegre: Universidade Federal do Rio Grande do Sul, 2018. Página 31.
+
+[9] NOGUEIRA, D. Agile Data Mining: Uma metodologia ágil para o desenvolvimento de projetos de data mining. Porto, Portugal: Universidade do Porto, 2014, p.6-8.
+
+[10] AZEVEDO, A. I. R. L.; SANTOS, M. F. KDD, SEMMA and CRISP-DM: a parallel overview. IADIS European Conference on Data Mining, 2008, IADIS. p.182–185.
+
+[11] AMARAL, F. Introdução à Ciência de Dados: Mineração de Dados e Big Data: Rio de Janeiro: Alta Books; 2016.
+
+[12] Agrupando conceitos e classificando imagens com Deep Learning. 
+Disponível em:
+<https://estevestoni.medium.com/agrupando-conceitos-e-classificando-imagens-com-deep-learning-5b2674f99539> Acesso em: 29 abr. 2021.
+
+[13] TAN, M.; LE, V. Q. EfficientNet: Rethinking Model Scaling for Convolutional Neural Netwoks, 2020. Disponível em <https://arxiv.org/pdf/1905.11946.pdf>. Acesso 18 abril 2021.
+
+[14] KOHAVI, R. A study of cross-validation and bootstrap for accuracy estimation and model selection. In: International joint Conference on artificial intelligence. [S.l.: s.n.], 1995. v. 14, p. 1137–1145.
+
+[15] REFAEILZADEH, P.; TANG, L.; LIU, H. Cross-Validation. Azirona State University, 2008. Disponível em: <https://web.archive.org/web/20110905044421/http://www.public.asu.edu/~ltang9/papers/ency-cross-validation.pdf>. Acesso em: 19 abril 2021.
+
 </p>
