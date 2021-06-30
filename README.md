@@ -68,19 +68,15 @@ Consiste em uma separação simples do conjunto de dados entre treino e teste, o
     <img width="300" height="200" src="img/picture5.png">
 </p>
 
-<div class="box">
+<p align="center">
     <img src="img/picture6.png">
-</div>
-<div class="box">
-    <img src="img/picture7.png">
-</div>
+</p>
 
-<style>
-    div.box {
-	    width: 200px;
-	    display: inline-block;
-    }
-</style>
+<p align="center">
+    <img src="img/picture7.png">
+</p>
+
+
 
 
 Na execução da validação cruzada foram utilizados 5 folds de forma estratificada, ou seja, mantendo a proporção das classes observadas. Neste método o teste não é executado ao final de cada epoch, como acontece quando utilizamos o HoldOut, e sim ao final do treinamento de cada fold, na tabela abaixo podemos observar os valores obtidos dos testes:
