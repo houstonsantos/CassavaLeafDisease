@@ -19,7 +19,7 @@
     * Classe 4 – Folha Saudável
 
 <p align="center">
-    <img width="600" height="500" src="img/picture1.png">
+    <img width="500" height="400" src="img/picture1.png">
 </p>
 
 <p style='text-align: justify;'> Como podemos observar a classe 3 apresenta uma quantidade considerável em relação as demais, o desbalanceamento faz o modelo aprender mais sobre a classe predominante em relação as outras, esse tipo de problema é conhecido como classe rara. Para o problema da classe rara temos uma possível solução através da estratificação. Para realizar esse processo dados foram separados utilizando a técnica HoldOut de forma estratificada pela classe, mantendo suas proporções em cada separação; 70% (14977 para treino), 30% (6420 para teste), das imagens de treino 10% (642 para validação). Os dados de validação são usados ao final, com a intensão de simular um ambiente real de produção. </p>
@@ -59,6 +59,30 @@ Algumas informações de técnicas utilizadas na criação da Rede Neural Convol
 </p>
 
 
-## Avaliação
+## Resultados
+
+**HoldOut**
+Consiste em uma separação simples do conjunto de dados entre treino e teste, onde o conjunto de dados pode ser separado em partes iguais ou não, uma proporção muito comum é 2/3 para treino e 1/3 para teste. Após o modelo ser criado e executado os testes são aplicados e a predição calculada. Para o experimento utilizou-se 70% para treino e 30% para teste. Na figura 11 temos um gráfico de linhas onde podemos verificar e comparar a evolução da val_loss e val_categorical_accuracy. 
+
+<p align="center">
+    <img width="300" height="200" src="img/picture5.png">
+</p>
+
+<div class="box">
+    <img src="img/picture6.png">
+</div>
+<div class="box">
+    <img src="img/picture7.png">
+</div>
+
+<style>
+    div.box {
+	    width: 200px;
+	    display: inline-block;
+    }
+</style>
+
+
+Na execução da validação cruzada foram utilizados 5 folds de forma estratificada, ou seja, mantendo a proporção das classes observadas. Neste método o teste não é executado ao final de cada epoch, como acontece quando utilizamos o HoldOut, e sim ao final do treinamento de cada fold, na tabela abaixo podemos observar os valores obtidos dos testes:
 
 ## Referências
