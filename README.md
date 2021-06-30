@@ -35,7 +35,11 @@ Algumas informações de técnicas utilizadas na criação da Rede Neural Convol
 
   * **Data Augumentation**
 
-    * hhh
+    * A ideia de manipular imagens decorre de uma premissa básica das atividades que envolvem Deep Learning e a Aprendizagem de Máquina, que é a representatividade da amostra de dados utilizada para treinar um modelo. Quanto maior for a amostra e mais representativos forem os dados utilizados na etapa de treinamento, melhor será o desempenho do modelo ao classificar novos dados. Assim, ao rotacionar as imagens e redimensiona-las, aumentamos nosso espaço amostral gerando uma maior variabilidade de dados, fazendo com que nosso modelo aprenda características apresentadas sob outra "forma".
+
+    <p align="center">
+    <img width="600" height="400" src="img/picture3.png">
+    </p>
   
   
   * **Hiperparâmetros**
