@@ -62,18 +62,10 @@ Algumas informações de técnicas utilizadas na criação da Rede Neural Convol
 ## Resultados
 
 **HoldOut**
-Consiste em uma separação simples do conjunto de dados entre treino e teste, onde o conjunto de dados pode ser separado em partes iguais ou não, uma proporção muito comum é 2/3 para treino e 1/3 para teste. Após o modelo ser criado e executado os testes são aplicados e a predição calculada. Para o experimento utilizou-se 70% para treino e 30% para teste. Na figura 11 temos um gráfico de linhas onde podemos verificar e comparar a evolução da val_loss e val_categorical_accuracy. 
+Consiste em uma separação simples do conjunto de dados entre treino e teste, onde o conjunto de dados pode ser separado em partes iguais ou não, uma proporção muito comum é 2/3 para treino e 1/3 para teste. Após o modelo ser criado e executado os testes são aplicados e a predição calculada. Para o experimento utilizou-se 70% para treino e 30% para teste. Nas figuras abixo podemos verificar a tabela com os resultados e a matriz de confusão. 
 
 <p align="center">
     <img width="300" height="200" src="img/picture5.png">
-</p>
-
-<p align="center">
-    <img width="400" height="300" src="img/picture6.png">
-</p>
-
-<p align="center">
-    <img width="500" height="400" src="img/picture7.png">
 </p>
 
 <p align="center">
@@ -85,10 +77,6 @@ Na execução da validação cruzada foram utilizados 5 folds de forma estratifi
 
 <p align="center">
     <img width="350" height="300" src="img/picture9.png">
-</p>
-
-<p align="center">
-    <img width="350" height="300" src="img/picture10.png">
 </p>
 
 <p align="center">
