@@ -69,11 +69,11 @@ Consiste em uma separação simples do conjunto de dados entre treino e teste, o
 </p>
 
 <p align="center">
-    <img src="img/picture6.png">
+    <img width="400" height="300" src="img/picture6.png">
 </p>
 
 <p align="center">
-    <img src="img/picture7.png">
+    <img width="500" height="400" src="img/picture7.png">
 </p>
 
 
